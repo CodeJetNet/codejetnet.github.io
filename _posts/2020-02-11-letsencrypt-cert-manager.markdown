@@ -124,7 +124,7 @@ This provides cert-manager with an issuer from which it can request SSL certific
 Create a Let's Encrypt Cluster Issuer after changing *YOUREMAIL@EXAMPLE.COM* to your email address. 
 
 ```bash
-cat <<EOF > cluster-issuer2.yaml
+cat <<EOF > cluster-issuer.yaml
 apiVersion: cert-manager.io/v1alpha2
 kind: ClusterIssuer
 metadata:
